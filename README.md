@@ -24,11 +24,11 @@ RHT is not a black box that silently moves your money. It is a research analyst 
 
 ### Why RHT
 
-- **Always watching.** Continuous monitoring of your watchlist, portfolio, and the broader market — pre-market through after-hours.
-- **Opinionated, not vague.** Every signal comes with a direction (Strong Buy / Buy / Hold / Avoid) and a confidence level, so you know how much weight to give it.
-- **Explains itself.** Each call is backed by the momentum, volume, and trend data that produced it. No unexplained trades.
-- **Yours alone.** Runs entirely on your machine. Your keys, your data, your rules.
-- **Paper first.** Ships in paper-trading mode so you can watch RHT work for weeks before a single real dollar is at stake.
+* **Always watching.** Continuous monitoring of your watchlist, portfolio, and the broader market — pre-market through after-hours.
+* **Opinionated, not vague.** Every signal comes with a direction (Strong Buy / Buy / Hold / Avoid) and a confidence level, so you know how much weight to give it.
+* **Explains itself.** Each call is backed by the momentum, volume, and trend data that produced it. No unexplained trades.
+* **Yours alone.** Runs entirely on your machine. Your keys, your data, your rules.
+* **Paper first.** Ships in paper-trading mode so you can watch RHT work for weeks before a single real dollar is at stake.
 
 ---
 
@@ -44,15 +44,15 @@ Everything RHT knows lives in one place: portfolio value and intraday performanc
 
 At a glance you get:
 
-| Panel | What it tells you |
-|---|---|
-| Portfolio Value | Live value with intraday, weekly, monthly, and all-time views |
-| Terminal Assistant | RHT's current read on the market, in plain language |
-| Watchlist | Your tracked tickers with price, change, and sparkline trend |
-| Top Signals | Ranked calls with direction and confidence |
-| Performance Summary | Total return, win rate, and best trade for the period |
-| Allocation | Stocks, crypto, ETFs, and cash split |
-| Terminal Status | Whether RHT is active, monitoring, or paused |
+| Panel               | What it tells you                                             |
+| ------------------- | ------------------------------------------------------------- |
+| Portfolio Value     | Live value with intraday, weekly, monthly, and all-time views |
+| Terminal Assistant  | RHT's current read on the market, in plain language           |
+| Watchlist           | Your tracked tickers with price, change, and sparkline trend  |
+| Top Signals         | Ranked calls with direction and confidence                    |
+| Performance Summary | Total return, win rate, and best trade for the period         |
+| Allocation          | Stocks, crypto, ETFs, and cash split                          |
+| Terminal Status     | Whether RHT is active, monitoring, or paused                  |
 
 ---
 
@@ -75,9 +75,9 @@ At a glance you get:
 
 ### Requirements
 
-- Python 3.10 or newer
-- [uv](https://docs.astral.sh/uv/) for dependency management
-- Node.js with [pnpm](https://pnpm.io/) (only if you want to run the dashboard in dev mode)
+* Python 3.10 or newer
+* [uv](https://docs.astral.sh/uv/) for dependency management
+* Node.js with [pnpm](https://pnpm.io/) (only if you want to run the dashboard in dev mode)
 
 ### Run the terminal
 
@@ -117,14 +117,14 @@ Open it, connect your brokerage credentials in **Settings**, add a few tickers t
 
 Strategy, risk, and connection settings are managed from the dashboard under **Settings**. The essentials:
 
-| Setting | Purpose |
-|---|---|
-| Trading mode | Paper or live |
-| Max position size | Cap on capital committed to any single asset |
-| Stop loss / take profit | Automatic exit thresholds |
-| Signal threshold | Minimum confidence before a signal becomes an order |
-| Watchlist | Which assets RHT monitors |
-| Alerts | Where and when you get notified |
+| Setting                 | Purpose                                             |
+| ----------------------- | --------------------------------------------------- |
+| Trading mode            | Paper or live                                       |
+| Max position size       | Cap on capital committed to any single asset        |
+| Stop loss / take profit | Automatic exit thresholds                           |
+| Signal threshold        | Minimum confidence before a signal becomes an order |
+| Watchlist               | Which assets RHT monitors                           |
+| Alerts                  | Where and when you get notified                     |
 
 ---
 
@@ -154,6 +154,22 @@ Commit messages follow [Conventional Commits](https://www.conventionalcommits.or
 
 ---
 
+## Support RHT
+
+If you find **Robinhood Terminal** useful and want to support continued development, you can send a donation to the wallet below.
+
+**Donation wallet:**
+
+```text
+0x55c954f425459e614ea1c9712d9f34669d81cea3
+```
+
+Every contribution helps support continued development, maintenance, and new features for RHT. ❤️
+
+> Please double-check the wallet address and make sure you are using a compatible network before sending funds. Crypto transactions are irreversible.
+
+---
+
 ## Risk Disclaimer
 
 > [!WARNING]
@@ -171,6 +187,6 @@ Issues and pull requests are welcome. For new features, open an issue to discuss
 
 <img src="assets/rht-logo.jpg" alt="Robinhood Terminal - RHT" width="420" />
 
-_RHT is standing by._
+*RHT is standing by.*
 
 </div>
